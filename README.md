@@ -107,25 +107,8 @@ This is an academic model for studying sizing decisions, not a validated investm
 - The shared converter limit does not strictly prohibit simultaneous charging and discharging.
 - The objective is modeled cost, not profit or NPV. Raw objective totals over different horizons are not a profitability ranking.
 
-## Verification status
 
-The reference results and original PNG figures were supplied from the author's MATLAB demonstration. They are not outputs of an independently completed packaging run. Some tabulated values are rounded from the displayed results.
 
-Input checks confirmed 8,760 finite samples in each series. The packaged script adds input checks, a successful-solver check, constraint residual checks and automatic exports. A fresh MATLAB run was attempted during packaging but could not start because required MathWorks services were unavailable (error 5201).
-
-See [validation details](docs/VALIDATION.md) and [implemented model equations](docs/MODEL.md).
-
-## Repository contents
-
-| Location | Contents |
-|---|---|
-| `run_project.m` | Entry point |
-| `src/` | Packaged MATLAB study |
-| `data/` | Input instructions and local datasets |
-| `figures/` | Supplied operating plots and sizing comparison |
-| `results/` | Results table, explanation and generated-output location |
-| `docs/` | Model assumptions, parameters and validation notes |
-| `archive/` | Original submitted Task 5 script |
 
 ## Academic attribution and tools
 
