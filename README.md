@@ -67,7 +67,7 @@ For the tested 3-10-year horizons, the model selects no new equipment. At 20 yea
 
 These findings are conditional on the implemented model and modified parameters. The 21-year case was not tested, so the exact PV adoption threshold is not established. Changes reflect both the longer operating horizon and component replacement charges.
 
-[Full results table, objective values and interpretation](results/README.md).
+
 
 ### Hourly operation: 22-year scenario
 
@@ -81,7 +81,7 @@ The following author-supplied figures show three days from the final scenario. `
 
 ## Run the study
 
-Requires **MATLAB and Optimization Toolbox**. The author demonstrated the model using a HiGHS dual-simplex solver.
+Requires **MATLAB and Optimization Toolbox**. I demonstrated the model using a HiGHS dual-simplex solver.
 
 1. Download and extract this project.
 2. Ensure the three input CSV files are in `data/local/`.
@@ -93,7 +93,7 @@ run_project
 
 The packaged script exports sizing tables, hourly dispatch for each horizon, numerical feasibility checks, figures and a MATLAB results file to `results/generated/`. Daily plots refer to the last horizon in the list, currently 22 years.
 
-A public Git checkout does not include the ignored local datasets. See [input instructions](data/README.md).
+A public Git checkout does not include the ignored local datasets. 
 
 ## Assumptions and limitations
 
@@ -114,6 +114,5 @@ This is an academic model for studying sizing decisions, not a validated investm
 
 The project builds on the 2025/2026 course exercise and LP teaching material **Optimal Sizing and Operation of a Photovoltaic System with Storage**, supplied through FER, University of Zagreb. The lecture authors are Mario Vasak, Vinko Lesic and Ninoslav Holjevac.
 
-The core MATLAB script and demonstrated results were supplied by the project author. AI assistance supported code review, repository packaging, documentation and validation/export additions. This repository demonstrates **MATLAB**; a Python implementation is not included.
 
 No license is assigned automatically. Reuse of course materials, datasets and coursework-derived code is subject to the relevant permissions.
