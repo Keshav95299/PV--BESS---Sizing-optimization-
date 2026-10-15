@@ -1,0 +1,11 @@
+# Course inputs are bundled locally but not staged for public sharing.
+data/local/*
+!data/local/.gitkeep
+results/generated/*
+!results/generated/.gitkeep
+*.asv
+*.log
+*.slxc
+slprj/
+.DS_Store
+Thumbs.db
