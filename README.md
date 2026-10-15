@@ -19,14 +19,8 @@ The table shows the optimal installed capacities selected by the model for each 
 
 **22 years:** The model selects 84.2354 kWp of PV, 74.4301 kWh of battery storage and a 28.4695 kW converter. Relative to the 20-year case, PV appears and the selected storage and converter capacities are smaller. More operating years and replacement-cost changes jointly affect the result.
 
-## How to read these results
 
-- A zero capacity is a valid investment decision, not solver failure.
-- The objective is the implemented lifetime cost, not profit or payback. Raw totals across different horizons should not be used to rank profitability.
-- These cases do not identify the exact horizon at which PV first becomes attractive; the 21-year case was not tested.
-- Values are transcribed from the author's demonstrated MATLAB output. Earlier objective values and some capacities were rounded in the source screenshot; the displayed decimal places are not a claim of additional precision.
-- Results apply to the documented modified scenario and its simplified peak-charge, replacement and degradation accounting. They are not a validated investment recommendation.
+
 
 [Download the numerical table](reference/screenshot_results.csv).
 
-The `generated/` subfolder is reserved for fresh exports from the packaged MATLAB script. The reported table above is based on the supplied demonstration, not a new run.
